@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--meta description descrever a pag-->
+    <meta
+      name="description"
+      content="loja virtual de jogos para consoles, venda de console desktop, tablet e smartphone "
+    />
+    <!--meta keyword palavras chaves para sugestão da pag -->
+    <meta
+      name="keyword"
+      content="xbox,xbox360,xbox One, playstation 1, playstation 2, playstation 3, playstation 4, playstation 5,pc,pc game,desktop"
+    />
+    <meta name="author" content="david adam" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>site senai</title>
+    <link rel="stylesheet" href="" type=""size=16x16>
+    <!-- links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet"type="text/css" href="style.css">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="home.html" class="page-header">Game Mania</a>
+      <div class="navbar">
+        <a href="home.html">Home</a>
+         <div class="dropdown">
+            <button class="dropbtn" onclick="menu()">promoções<i class="fa fa-caret-down"></i>
+            </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="promocoes.html">playstation</a>
+                <a href="promocoes.html">xbox</a>
+                <a href="promocoes.html">pc game</a>
+              </div>
+            </div>
+        <a href="novidades.html" >novidades</a>
+        <a href="galeria.html" >galeria</a>
+        <a href="contato.html" >contato</a>
+      </div>
+    </header> 
+    
+    <h1>Contato</h1>
+    <main>
+      <form> 
+     
+            <label for="id">id</label>
+            <input type="text" id="id_j">
+     
+     
+            <label for="nome">nome do jogo</label>
+            <input type="text" id="nome_j">
+        
+        
+            <label for="text">gênero do jogo</label>
+            <input type="text" id="gen_j">
+       
+        
+            <label for="text">desenvolvedora</label>
+            <input type="text" id="emp_ds">
+      
+        <div>
+          <!--
+
+
+
+          -->
+            <button type="submit" onclick="valida()">enviar</button>
+            <button type="submit" onclick="cad()">cadastro</button>
+            <button type="submit" onclick="atual()">atualiza</button>
+            <button type="submit" onclick="apag()">apagar</button>        <!--type reset apaga o campo digitado -->
+        </div>
+      </form>
+    </main>
+
+          <footer>
+           <ul>
+              <li><a href="">telefone</a></li>
+              <li><a href="">e-mail</a></li>
+              <li><a href="">localização</a></li>
+            </ul>
+            <nav>
+              <a href="">facebook</a>
+              <a href="">instagram</a>
+              <a href="">youtube<a></a>
+            </nav>
+            &copy; David Adam
+          </footer>
+        
+        </body>
+      <script type="text/javascript" src="js/script.js"></script>
+    </html>
+
+<!--
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+      }
+      .buttons {
+        margin-top: 10px;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <label>ID</label>
+      <input id="idcampo" type="text" />
+
+      <label for="Nome do Jogo">Nome do Jogo</label>
+      <input type="text" />
+
+      <label>Tipo</label>
+      <input type="text" />
+
+      <label>Empresa Desenvolvedora</label>
+      <input type="text" />
+      <div class="buttons">
+        <button id="exibir">Exibir</button>
+        <button>Cadastrar</button>
+        <button>Atualizar</button>
+        <button>Apagar</button>
+      </div>
+    </form>
+    <script>
+      const exibir = document.getElementById("exibir");
+
+      exibir.addEventListener("click", (event) => {
+        event.preventDefault();
+
+        const confirmacao = confirm("Você clicou neste botão?");
+
+        if (confirmacao === true) {
+          const idCampo = document.getElementById("idcampo"); //selecionando o input id
+          if (!idCampo.value) {
+            alert("O campo está vazio");
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
+
+
+-->
+    
